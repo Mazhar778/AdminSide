@@ -1,0 +1,16 @@
+<!-- viewproduct.component.html -->
+
+<div class="container">
+    <ngx-datatable class="material" [rows]="products" [columnMode]="'force'" [headerHeight]="50" [footerHeight]="50" [rowHeight]="'auto'">
+      <ngx-datatable-column name="Product Name" prop="name"></ngx-datatable-column>
+      <ngx-datatable-column name="Price" prop="price"></ngx-datatable-column>
+      <ngx-datatable-column name="Warranty" prop="warranty"></ngx-datatable-column>
+      <ngx-datatable-column name="Category" prop="category"></ngx-datatable-column>
+      <ngx-datatable-column name="Description" prop="description"></ngx-datatable-column>
+      <ngx-datatable-column name="Created Date" prop="createdOn"></ngx-datatable-column>
+      <ngx-datatable-column name="Created User" prop="createdBy"></ngx-datatable-column>
+      <ngx-datatable-column name="Updated Date" prop="updatedOn"></ngx-datatable-column>
+      <ngx-datatable-column name="Updated User" prop="updatedBy"></ngx-datatable-column>
+    </ngx-datatable>
+  </div>
+  
